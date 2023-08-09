@@ -5,7 +5,7 @@
 from fastapi import FastAPI
 
 app = FastAPI(
-    title="FastAPI - Hello World",
+    title="FastAPI - Hello World code",
     description="This is the Hello World of FastAPI.",
     version="1.0.0",
 )
