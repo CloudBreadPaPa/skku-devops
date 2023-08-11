@@ -42,10 +42,10 @@ jobs:
           uses: 'azure/aci-deploy@v1'
           with:
             resource-group: ${{ secrets.RESOURCE_GROUP }}
-            dns-name-label: skku-aci
+            dns-name-label: skku-aci2
             image: ${{ secrets.REGISTRY_LOGIN_SERVER }}/flaskapp:${{ github.sha }}
             registry-login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
             registry-username: ${{ secrets.REGISTRY_USERNAME }}
             registry-password: ${{ secrets.REGISTRY_PASSWORD }}
-            name: aci-flaskapp
+            name: aci2-flaskapp
             location: 'korea central'
